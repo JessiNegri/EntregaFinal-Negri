@@ -1,0 +1,16 @@
+@use '../abstracts/variables' as v;
+
+//Function para _generals
+@function rem($px) {
+    @return ($px / 16) * 1rem;
+}
+
+//Functions para _forms
+@function rgba-color($color, $opacity) {
+    @return rgba($color, $opacity);
+}
+
+//Functions para _footer
+@function lighten($color, $amount) {
+    @return lighten($color, $amount);
+}

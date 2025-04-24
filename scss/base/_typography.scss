@@ -1,0 +1,53 @@
+@use '../abstracts/variables' as v;
+
+body {
+    font-family: v.$font-primary;
+    font-size: 16px;
+    line-height: 1.6;
+    color: #333;
+    p {
+        font-size: 16px;
+        margin-bottom: 16px;
+    }
+}
+
+header, footer { 
+    font-family: v.$font-secondary;
+    font-size: 18px;
+    font-weight: 600;
+    color: #222;
+}
+
+h1, h2, h3, h4, h5 {
+    font-family: v.$font-secondary;
+    font-weight: 700;
+    color: #111;
+    margin-top: 16px;
+    margin-bottom: 8px;
+}
+
+h1 {
+    font-size: 26px;
+    text-align: center;
+    margin: 40px 0 20px;
+    color: #333;
+}
+
+h2 {
+    font-size: 24px;
+}
+
+h3 {
+    font-size: 22px;
+}
+
+h4 {
+    font-size: 20px;
+}
+
+h5 {
+    font-size: 18px;
+}
+
+
+

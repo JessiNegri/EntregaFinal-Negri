@@ -1,0 +1,25 @@
+.image-talleres {
+    img {
+        width: 100%;
+        max-height: auto;
+        object-fit: cover;
+        border-radius: 10px;
+        }
+    }
+    
+.text-container-aditional {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 200px;
+    padding: 20px;
+    text-align: center;
+    background-color: #faf1e6;
+    
+    p {
+        font-size: 16px;
+        text-align: center;
+        margin-top: 20px;
+    }
+}

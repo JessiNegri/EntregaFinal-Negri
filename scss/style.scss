@@ -1,0 +1,27 @@
+// IMPORTACION DE ARCHIVOS BASE (ABSTRACTS: VARIABLES, MIXINS, FUNCIONES, MAPS Y EXTENDS)
+@use 'abstracts/functions' as f;
+@use 'abstracts/maps' as mp;
+@use 'abstracts/mixins' as m;
+@use 'abstracts/variables' as v;
+@use 'abstracts/extends';
+
+// BASE: RESET, TIPOGRAFIA Y ESTILOS BASE
+@use 'base/generals';
+@use 'base/reset';
+@use 'base/typography';
+
+// COMPONENTS: BOTONES, MENUS, FORMULARIOS,ETC
+@use 'components/buttons';
+@use 'components/cards';
+@use 'components/carousel';
+@use 'components/forms';
+
+// LAYOUT: ESTRUCTURA GENERAL DE LA PAGINA (FOOTER, HEADER, ETC.)
+@use 'layout/footer';
+@use 'layout/header';
+
+// PAGES: ESTILOS ESPECIFICOS DE PAGINAS
+@use 'pages/contactoubi';
+@use 'pages/index';
+@use 'pages/sobremi';
+@use 'pages/talleres';
